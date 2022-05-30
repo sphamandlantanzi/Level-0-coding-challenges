@@ -1,5 +1,3 @@
-number = 55
-
 def clock(number):
     qoutient   = number // 60
     hour       = number / 60
@@ -18,4 +16,5 @@ def clock(number):
     if qoutient > 1:
         return f"{qoutient} hours, {min} minutes"
         
-print(clock(num))
+number = 55        
+print(clock(number))
