@@ -1,16 +1,21 @@
-num = 126
+number = 55
 
-def clock(num):
-    qoutient   = num // 60
-    hour       = num / 60
+def clock(number):
+    qoutient   = number // 60
+    hour       = number / 60
     min_dec    = hour - qoutient
     min        = int(min_dec * 60)
 
+    if qoutient == 0 and min == 1:
+        return f"{min} minutes"
+    
+    if qoutient == 0:
+        return f"{min} minutes"
+    
     if qoutient <= 1:
-        singular = print(qoutient,"hour,",min,"minutes")
-        return singular
+        return f"{qoutient} hour, {min} minutes"
+       
     if qoutient > 1:
-        plural = print(qoutient,"hours,",min,"minutes")
-        return plural
+        return f"{qoutient} hours, {min} minutes"
         
-clock(num)
+print(clock(num))
