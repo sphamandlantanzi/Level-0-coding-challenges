@@ -1,7 +1,3 @@
-
-word_1 = "House"
-word_2 = "Computers"
-
 def word_match(word_1,word_2):
     lower_word_1 = word_1.lower()
     lower_word_2 = word_2.lower()
@@ -18,7 +14,8 @@ def word_match(word_1,word_2):
     print("Common letters: " +stick)
 
 
-
+word_1 = "House"
+word_2 = "Computers"
 word_match(word_1,word_2)    
             
 
