@@ -1,6 +1,3 @@
-
-word = "Umuzi"
-
 def vowel_hunter(word):
     lower_word = word.lower()
     lister = []
@@ -17,7 +14,7 @@ def vowel_hunter(word):
     print("Vowels: " +stick)
 
    
-
+word = "Umuzi"
 vowel_hunter(word)
 
 
