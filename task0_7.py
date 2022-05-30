@@ -1,15 +1,14 @@
-c = 25
-def celcius_to_farenheit(c):
-    farenheit = (c * 9/5) + 32
-    ans = print(farenheit)
-    return ans
+celcius = 25
+def celcius_to_farenheit(celcius):
+    farenheit = (celcius * 9/5) + 32
+    return farenheit
+   
+print(celcius_to_farenheit(celcius))
 
-celcius_to_farenheit(c)    
 
-ff = 77
-def farenheit_to_celcius(ff):
-    celcius = (ff - 32) * 5/9
-    ans = print(celcius)
-    return ans
+farenheit = 77
+def farenheit_to_celcius(farenheit):
+    celcius = (farenheit - 32) * 5/9
+    return celcius
 
-farenheit_to_celcius(ff)   
+print(farenheit_to_celcius(farenheit))  
