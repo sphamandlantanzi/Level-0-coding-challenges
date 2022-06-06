@@ -9,13 +9,11 @@ def vowel_hunter(word):
                 lister.append(vowels[i])
     
     delete_repeat = set(lister)
-    stick = ','.join(delete_repeat)
+    stick = ', '.join(delete_repeat)
 
     print("Vowels: " +stick)
 
-   
-word = "Umuzi"
-vowel_hunter(word)
+vowel_hunter("Umuzi")
 
 
 
