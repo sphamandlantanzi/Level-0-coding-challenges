@@ -5,16 +5,15 @@ def clock(number):
     min        = int(min_dec * 60)
 
     if qoutient == 0 and min == 1:
-        return f"{min} minutes"
+        return f"{qoutient} hour, {min} minute"
     
     if qoutient == 0:
-        return f"{min} minutes"
+        return f"{qoutient} hour, {min} minutes"
     
     if qoutient <= 1:
         return f"{qoutient} hour, {min} minutes"
        
     if qoutient > 1:
         return f"{qoutient} hours, {min} minutes"
-        
-number = 55        
-print(clock(number))
+    
+print(clock(116))
