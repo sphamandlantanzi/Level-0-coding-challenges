@@ -9,13 +9,10 @@ def word_match(word_1,word_2):
                 saver.append(lower_word_1[i])
 
     delete_repeat = set(saver)
-    stick = ','.join(delete_repeat)
+    stick = ', '.join(delete_repeat)
 
     print("Common letters: " +stick)
 
-
-word_1 = "House"
-word_2 = "Computers"
-word_match(word_1,word_2)    
+word_match("House","Computers")    
             
 
