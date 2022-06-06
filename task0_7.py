@@ -6,7 +6,5 @@ def farenheit_to_celcius(farenheit):
     celcius = (farenheit - 32) * 5/9
     return celcius
 
-celcius = 25
-farenheit = 77
-print(celcius_to_farenheit(celcius))
-print(farenheit_to_celcius(farenheit))  
+print(celcius_to_farenheit(25))
+print(farenheit_to_celcius(77))  
